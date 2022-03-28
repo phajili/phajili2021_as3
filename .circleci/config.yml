@@ -12,5 +12,5 @@ jobs:
 
       - run: mvn clean package
 
-      - run: mvn clean compile package jib:build -Djib.to.auth.username=$DOCKER_USER -Djib.to.auth.password=$DOCKER_PASS -Dimage=phajili/assignment3:$CIRCLE_BUILD_NUM
+      - run: mvn clean compile package jib:build -Djib.to.auth.username=$DOCKER_USER -Djib.to.auth.password=$DOCKER_PASS -Dimage=phajili2021/hw2:$CIRCLE_BUILD_NUM
 
