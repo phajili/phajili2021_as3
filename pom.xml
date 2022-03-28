@@ -48,8 +48,8 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.0</version>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.2</version>
             </plugin>
             <plugin>
                 <groupId>com.google.cloud.tools</groupId>
@@ -60,11 +60,9 @@
                         <image>openjdk:11-jdk-slim</image>
                     </from>
                     <container>
-                             <mainClass>
                         <ports>
                             <port>8080</port>
                         </ports>
-                             </mainClass>
                     </container>
                 </configuration>
             </plugin>
