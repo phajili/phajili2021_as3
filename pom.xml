@@ -59,10 +59,12 @@
                     <from>
                         <image>openjdk:11-jdk-slim</image>
                     </from>
-                    <container><mainClass>
+                    <container>
+                             <mainClass>
                         <ports>
                             <port>8080</port>
                         </ports>
+                             </mainClass>
                     </container>
                 </configuration>
             </plugin>
